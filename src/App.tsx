@@ -24,14 +24,14 @@ function App() {
 
   const stepLabel =
     step === "account"
-      ? "1/3 CUENTA"
+      ? "PROCESO A"
       : step === "coins"
-        ? "2/3 MONTO"
+        ? "PROCESO B"
         : step === "shoot"
-          ? "3/3 DISPARO"
+          ? "PROCESO C"
           : step === "success"
-            ? "OK"
-            : "FAIL";
+            ? "COMPLETADO"
+            : "RECHAZADO";
 
   return (
     <div className="app-shell">

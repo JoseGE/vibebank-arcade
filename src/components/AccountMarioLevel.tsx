@@ -138,10 +138,9 @@ export function AccountMarioLevel({ onComplete }: Props) {
 
   return (
     <div className="account-level pixel-frame">
-      <h2 className="screen-title">NIVEL 1 — Cuenta (modo castillo)</h2>
-      <p className="hint">
-        Mueve al fontanero con A/D o flechas. Salta con W, flecha arriba o espacio. Golpea los bloques
-        ? desde abajo: cada golpe suma 1 al dígito (0→9). No hay teclado numérico. Así es más difícil.
+      <h2 className="screen-title">NIVEL 1 — Cuenta</h2>
+      <p className="hint confusing">
+        Usa las flechas direccionales o las teclas W/A/S/D para moverte. El objetivo es alcanzar el final del nivel. Los bloques flotantes contienen potenciadores. El contaador superior refleja tu progreso.
       </p>
 
       <div

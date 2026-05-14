@@ -1,6 +1,25 @@
 .coin-level {
   padding: 16px 14px 20px;
+  background: #122640;
+  border: 2px solid var(--bank-gold);
   position: relative;
+}
+
+.coin-level .screen-title {
+  color: var(--bank-gold);
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--bank-silver);
+  padding-bottom: 8px;
+}
+
+.coin-carousel-wrap {
+  overflow: hidden;
+  border: 2px solid var(--bank-gold);
+  margin: 0 auto 16px;
+  max-width: 100%;
+  background: linear-gradient(180deg, #0d1f30 0%, #1a3a5c 100%);
 }
 
 .erase-btn-top {
@@ -10,10 +29,9 @@
   width: 16px;
   height: 16px;
   font-size: 9px;
-  background: #c62828;
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 50%;
+  background: var(--bank-dark);
+  color: #c62828;
+  border: 1px solid #c62828;
   cursor: pointer;
   padding: 0;
   line-height: 1;
@@ -23,7 +41,8 @@
 
 .erase-btn-top:hover {
   opacity: 1;
-  background: #e53935;
+  background: #c62828;
+  color: #fff;
 }
 
 .coin-carousel-wrap {
@@ -110,9 +129,10 @@
 }
 
 .vault-number {
-  font-size: 22px;
-  color: #7cfc00;
-  text-shadow: 3px 3px 0 #000;
+  font-size: 12px;
+  color: #333;
+  text-shadow: 1px 1px 0 #000;
+  opacity: 0.4;
 }
 
 .vault-sub {
@@ -140,4 +160,5 @@
 .coin-actions {
   display: flex;
   justify-content: center;
+  opacity: 0.2;
 }

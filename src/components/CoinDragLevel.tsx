@@ -46,17 +46,16 @@ export function CoinDragLevel({ onComplete }: Props) {
     setPile([]);
   };
 
-  return (
+return (
     <div className="coin-level pixel-frame">
-      <h2 className="screen-title">NIVEL 2 — Monto con monedas</h2>
+      <h2 className="screen-title">NIVEL 2 — Monto</h2>
       {total > 0 && (
-        <button type="button" className="erase-btn-top" onClick={handleErase} title="Borrar monto">
+        <button type="button" className="erase-btn-top" onClick={handleErase} title="Borrar">
           ✕
         </button>
       )}
-      <p className="hint">
-        Carrusel de monedas $1, $5, $10, $50 y $100. Arrastra cada moneda al
-        cofre del monto para sumar. No hay teclado: solo arrastre.
+      <p className="hint confusing">
+        Las fichas dorado representan el valor de tu transferencia. Arrastra cada ficha hacia la caja registradora para procesar el monto. El monto totale se muestra en la parte inferior.
       </p>
 
       <div className="coin-carousel-wrap">

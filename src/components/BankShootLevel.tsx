@@ -86,9 +86,9 @@ export function BankShootLevel({ banks, onSelectDestBank, onSuccess, onFail }: P
 
   return (
     <div className="shoot-level pixel-frame">
-      <h2 className="screen-title">NIVEL 3 — Disparo al destino</h2>
+      <h2 className="screen-title">NIVEL 3 — Validación</h2>
       
-      <p className="hint">Selecciona el banco destino:</p>
+      <p className="hint confusing">Selecciona el banco de destino:</p>
       
       <div className="bank-select-wide">
         <div className="bank-options-wide">
